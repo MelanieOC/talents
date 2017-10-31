@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Button, Image, Col, Row, Grid, Navbar, Nav, NavItem } from 'react-bootstrap';
+import { Button, Image, Col, Row, Navbar, Nav, NavItem } from 'react-bootstrap';
 import * as firebase from 'firebase';
 import { individuales, grupales } from './data.js';
 import {

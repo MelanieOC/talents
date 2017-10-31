@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 body {
   background-image: url(img/fondo.jpg);
+  background-size: cover;
   background-attachment: fixed;
   margin: 0;
   font-family: 'Raleway', sans-serif;
@@ -35,7 +36,7 @@ body {
 
 .content{
   width: 95%;
-  max-width: 820px;
+  max-width: 920px;
   padding-bottom: 2em;
   margin: 0 auto 2em;
   background: transparent;

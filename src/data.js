@@ -5,8 +5,9 @@ import states from './img/states.jpg';
 import agile from './img/agile.jpg';
 import bertha from './img/bertha.jpg';
 import raiza from './img/raiza.jpg';
-import claushey from './img/clau.jpg';
 import coolcode from './img/coolcode.jpg';
+import team from './img/teamL.jpg';
+import webdesign from './img/webD.jpg';
 
 export const individuales = [
     {
@@ -35,13 +36,6 @@ export const individuales = [
         user: 'Raiza',
         image: raiza,
         id:4,
-        tipo: 'individual'
-    },
-    {
-        nombre: 'clau&shey',
-        user: 'Shey y Clau',
-        image: claushey,
-        id:5,
         tipo: 'individual'
     }
 ]
@@ -74,6 +68,20 @@ export const grupales = [
         user: 'YOLO',
         image: yolo,
         id:4,
+        tipo: 'grupal'
+    },
+    {
+        nombre: 'webdesign',
+        user: 'Web Design Girls',
+        image: webdesign,
+        id:5,
+        tipo: 'grupal'
+    },
+    {
+        nombre: 'team',
+        user: 'Team Laboratoria',
+        image: team,
+        id:6,
         tipo: 'grupal'
     }
 ]

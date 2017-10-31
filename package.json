@@ -2,7 +2,7 @@
   "name": "talentnight",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://melanieoc.github.io/talent",
+  "homepage": "http://melanieoc.github.io/talents",
   "dependencies": {
     "firebase": "^4.6.0",
     "react": "^16.0.0",
