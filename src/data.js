@@ -8,6 +8,7 @@ import raiza from './img/raiza.jpg';
 import coolcode from './img/coolcode.jpg';
 import team from './img/teamL.jpg';
 import webdesign from './img/webD.jpg';
+import mili from './img/mili.jpg';
 
 export const individuales = [
     {
@@ -36,6 +37,13 @@ export const individuales = [
         user: 'Raiza',
         image: raiza,
         id:4,
+        tipo: 'individual'
+    },
+    {
+        nombre: 'mili',
+        user: 'Mili',
+        image: mili,
+        id:5,
         tipo: 'individual'
     }
 ]
