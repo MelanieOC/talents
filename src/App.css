@@ -1,28 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body {
+  background-image: url(img/fondo.jpg);
+  background-attachment: fixed;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  border: 0;
+}
 .App {
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.participante{
+  padding: 20px 30px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
+.nombre{
   font-size: 1.5em;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.navlink{
+  font-size: .95em;
+  color: rgb(252, 246, 246);
+  text-transform: uppercase;
+  padding: 1em 3em;
+  transition: .2s;
+  background-color: 'red';
+  width: 100%;
 }
 
-.App-intro {
-  font-size: large;
+.active, a:hover {
+  color: rgb(229, 240, 85) !important;
+  text-decoration: none !important;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.content{
+  width: 95%;
+  max-width: 820px;
+  padding-bottom: 2em;
+  margin: 0 auto 2em;
+  background: transparent;
+  border-radius: .5em;
+  color: white;
+  overflow: hidden;
+}
+.voto{
+  background-color: rgb(185, 40, 185);
+  padding: 10px;
+  color: white;
+  font-size: 1.2em;
+  margin: 20px 30px;
+  border: 2px solid white;
+}
+header {
+  background: #edeff0;
+  margin-bottom: 2em;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+a {
+  text-decoration: none;
+  color: #3b80d1;
+}
+.individual{
+  margin: 5px auto;
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+.main-nav a {
+  font-size: .95em;
+  color: #222;
+  text-transform: uppercase;
+  display: block;
+  padding: 1em;
+  transition: .2s;
+}
+@media (min-width: 769px){
+  .main-nav, header {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-nav a {
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    padding: 1.25em 1.5em;
+  }
+
+}
+.main-nav .active, .main-nav a:hover {
+  color: #fff;
+  background: #3b80d1;
 }
